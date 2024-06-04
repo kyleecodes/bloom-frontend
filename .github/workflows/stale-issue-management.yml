@@ -1,33 +1,33 @@
-# This workflow warns when issues have had no activity for a specified amount of time.
-# For more information, see:
-# https://github.com/actions/stale
-name: Mark Stale Issues
+# This workflow labels stale PRs after 30 days of inactivity, then closes them a week later if not updated.
+# For more information, see: https://github.com/actions/stale
+
+name: Mark Stale Issues 2
 
 on:
-  # Enable manual run from the Actions tab.
+  # Enable manual run from the Actions tab so workflow can be run at any time
   workflow_dispatch:
-  # Scheduled to run at 12:00 on every 1st of the month.
+  # Scheduled to run at 12:00 on every Monday
   schedule:
-    - cron: '0 12 1 * *'
+    - cron: "0 0 * * MON"
 
 jobs:
   stale:
     runs-on: ubuntu-latest
     permissions:
-      # PR permissions can be added here
-      issues: write
+      pull-requests: write
 
     steps:
       - uses: actions/stale@v5
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          remove-stale-when-updated: false
-          include-only-assigned: true
-          # Disable closing issues
-          days-before-close: -1
-          stale-issue-label: 'stale'
-          # Ignores comments as activity, only looks at date of issue creation.
-          ignore-updates: true
-          # Ignore developer staff and frequent contributors
-          exempt-assignees: 'kyleecodes, swetha-charles, eleanorreem, annarhughes, tarebyte'
-          stale-issue-message: 'As per Chayn policy, after 60 days of inactivity, we will be unassigning this issue to open it back up for contributors. Please comment to be re-assigned. Thank you for your interest in contributing to Chayn!'
+          # mark stale after 30 days of no activity
+          days-before-pr-stale: 1
+          # close pr after 1 week no updates after stale warning
+          days-before-pr-close: 2
+          # disabling removing stale label because all activity counts as updates.
+          remove-pr-stale-when-updated: false
+          stale-pr-label: "stale"
+          # Ignore developer staff and bots
+          exempt-pr-assignees: "swetha-charles, eleanorreem, annarhughes, tarebyte, dependabot[bot], dependabot, github-actions[bot], github-actions"
+          stale-pr-message: "As per Chayn policy, after 30 days of inactivity, we will close this PR."
+          close-pr-message: 'This PR has been closed due to inactivity.'
