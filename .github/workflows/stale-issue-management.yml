@@ -27,5 +27,6 @@ jobs:
           # disabling removing stale label because all activity counts as updates.
           remove-pr-stale-when-updated: false
           stale-pr-label: "stale"
+          ignore-pr-updates: true
           stale-pr-message: "As per Chayn policy, after 30 days of inactivity, we will close this PR."
           close-pr-message: 'This PR has been closed due to inactivity.'
