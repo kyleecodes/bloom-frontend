@@ -27,7 +27,5 @@ jobs:
           # disabling removing stale label because all activity counts as updates.
           remove-pr-stale-when-updated: false
           stale-pr-label: "stale"
-          # Ignore developer staff and bots
-          exempt-pr-assignees: "swetha-charles, eleanorreem, annarhughes, tarebyte, dependabot[bot], dependabot, github-actions[bot], github-actions"
           stale-pr-message: "As per Chayn policy, after 30 days of inactivity, we will close this PR."
           close-pr-message: 'This PR has been closed due to inactivity.'
