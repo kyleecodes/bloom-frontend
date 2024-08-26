@@ -2384,19 +2384,19 @@
   dependencies:
     "@sinonjs/commons" "^3.0.0"
 
-"@storyblok/js@^3.0.8":
-  version "3.0.8"
-  resolved "https://registry.yarnpkg.com/@storyblok/js/-/js-3.0.8.tgz#22d9ecc25f333e80ffa936c287317a2dcc0f166c"
-  integrity sha512-JY+abbswBId84Ubr0yRwNpq5Klf9546Ia2Qs1pn6en5Trz8o6EcBJIwxvR6evjJ0Vp2cLKT7MV1yfGLAtnzycA==
+"@storyblok/js@^3.0.11":
+  version "3.0.11"
+  resolved "https://registry.yarnpkg.com/@storyblok/js/-/js-3.0.11.tgz#67c22dd3a6e0e8678141a8aca1a5ac267b884e74"
+  integrity sha512-d50d9cmIsmDPEJ+/+tc/0feBWJl/rgJe54grrnxhmCkoqapaIsTdTZMuGt/kbBlq3okEr8qxdwEhZQEdV5euVw==
   dependencies:
-    storyblok-js-client "^6.7.2"
+    storyblok-js-client "^6.8.4"
 
-"@storyblok/react@^3.0.0":
-  version "3.0.10"
-  resolved "https://registry.yarnpkg.com/@storyblok/react/-/react-3.0.10.tgz#86335335099ed602c03168fe7ae3f0cf58e5c07c"
-  integrity sha512-7cyUdCoT/kTXFJLojPhqhguvcTjvIizPh3wf90Q99zrD7quMALX9E6Ag/gSGkyWdMTQ7Wcbh2zEQaZxEDx0FRg==
+"@storyblok/react@^3.0.12":
+  version "3.0.12"
+  resolved "https://registry.yarnpkg.com/@storyblok/react/-/react-3.0.12.tgz#3dfba7086c79e0e8ef2b46f3b8b5d9f83a6b1062"
+  integrity sha512-YD4ryo8kxNJDAGM3gfBwFoNc4TrajGT3YQY3ECfRR1afYPoLGh2x8uzJ3Olk5kuJ6H/h20yM8Xl4dbbEMqCn+g==
   dependencies:
-    "@storyblok/js" "^3.0.8"
+    "@storyblok/js" "^3.0.11"
 
 "@surma/rollup-plugin-off-main-thread@^2.2.3":
   version "2.2.3"
@@ -8146,10 +8146,10 @@ stop-iteration-iterator@^1.0.0:
   dependencies:
     internal-slot "^1.0.4"
 
-storyblok-js-client@^6.7.2:
-  version "6.8.0"
-  resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-6.8.0.tgz#9adea1ffa8b8f282cfc84c39034b913a1f541a51"
-  integrity sha512-uAPDbechCAUAT/NwAzICmc9cEANXmaeRdBRKJujfzjMPqQEc9fTnk1LuZ/iSSTL9j9i/fdO7JIrbsiHPH7iyTQ==
+storyblok-js-client@^6.8.4:
+  version "6.8.4"
+  resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-6.8.4.tgz#b0f145edd0157d80a7dbf55656ee240bd5320c29"
+  integrity sha512-+f8DAigWz/E3Np45m3lVoEs14YIvrr+1gpj6zuIVa0Kc1QwdKpJ0hkrYoMlk9TznPeqdgU5KIKwzvOFgHVGHsQ==
 
 storyblok-rich-text-react-renderer@^2.9.0:
   version "2.9.2"

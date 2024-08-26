@@ -35,7 +35,7 @@
     "@mui/material": "^5.16.1",
     "@newrelic/next": "^0.10.0",
     "@reduxjs/toolkit": "^2.2.5",
-    "@storyblok/react": "^3.0.0",
+    "@storyblok/react": "^3.0.12",
     "@vercel/analytics": "^1.1.1",
     "axios": "^1.6.2",
     "firebase": "^10.7.1",
