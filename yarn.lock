@@ -1631,7 +1631,7 @@
     "@formatjs/intl-localematcher" "0.5.4"
     tslib "^2.4.0"
 
-"@formatjs/fast-memoize@2.2.0":
+"@formatjs/fast-memoize@2.2.0", "@formatjs/fast-memoize@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@formatjs/fast-memoize/-/fast-memoize-2.2.0.tgz#33bd616d2e486c3e8ef4e68c99648c196887802b"
   integrity sha512-hnk/nY8FyrL5YxwP9e4r9dqeM6cAbo8PeU9UjyXojZMNvVad2Z06FAVHyR3Ecw6fza+0GH7vdJgiKIVXTMbSBA==
@@ -1655,17 +1655,10 @@
     "@formatjs/ecma402-abstract" "2.0.0"
     tslib "^2.4.0"
 
-"@formatjs/intl-localematcher@0.5.4":
+"@formatjs/intl-localematcher@0.5.4", "@formatjs/intl-localematcher@^0.5.4":
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/@formatjs/intl-localematcher/-/intl-localematcher-0.5.4.tgz#caa71f2e40d93e37d58be35cfffe57865f2b366f"
   integrity sha512-zTwEpWOzZ2CiKcB93BLngUX59hQkuZjT2+SAQEscSm52peDW/getsawMcWF1rGRpMCX6D7nSJA3CzJ8gn13N/g==
-  dependencies:
-    tslib "^2.4.0"
-
-"@formatjs/intl-localematcher@^0.2.32":
-  version "0.2.32"
-  resolved "https://registry.yarnpkg.com/@formatjs/intl-localematcher/-/intl-localematcher-0.2.32.tgz#00d4d307cd7d514b298e15a11a369b86c8933ec1"
-  integrity sha512-k/MEBstff4sttohyEpXxCmC3MqbUn9VvHGlZ8fauLzkbwXmVrEeyzS+4uhrvAk9DWU9/7otYWxyDox4nT/KVLQ==
   dependencies:
     tslib "^2.4.0"
 
@@ -6843,14 +6836,14 @@ newrelic@^11.8.0:
     "@newrelic/native-metrics" "^10.0.0"
     "@prisma/prisma-fmt-wasm" "^4.17.0-16.27eb2449f178cd9fe1a4b892d732cc4795f75085"
 
-next-intl@^3.15.5:
-  version "3.15.5"
-  resolved "https://registry.yarnpkg.com/next-intl/-/next-intl-3.15.5.tgz#d8227b8ea645ecca09439d40bd24c5cabdbfa8e8"
-  integrity sha512-QnUFjKRLKC7dbb40RKqINTNkvvgTHUEv66Q9X+s/6hxQu/XRKKY4JtcZ5ajMW2Ed8H2eyOY7+WXxAY2GbXq6jA==
+next-intl@^3.19.0:
+  version "3.19.0"
+  resolved "https://registry.yarnpkg.com/next-intl/-/next-intl-3.19.0.tgz#2c5f43f0f547f6ff19b0ec818b78fd92c67cabf8"
+  integrity sha512-ciiHYBwR3ztoMdJZgFmt0LII7GYTsLA/MFt3y681q4Lw4fI5EYNCZSYb9XA/BIt3ZX5S1TLUP1uOERy1dIQvMg==
   dependencies:
-    "@formatjs/intl-localematcher" "^0.2.32"
+    "@formatjs/intl-localematcher" "^0.5.4"
     negotiator "^0.6.3"
-    use-intl "^3.15.5"
+    use-intl "^3.19.0"
 
 next-pwa@^5.6.0:
   version "5.6.0"
@@ -8851,11 +8844,12 @@ url@^0.11.0:
     punycode "^1.4.1"
     qs "^6.11.2"
 
-use-intl@^3.15.5:
-  version "3.15.5"
-  resolved "https://registry.yarnpkg.com/use-intl/-/use-intl-3.15.5.tgz#aaba4558610d5c90e847c2101a4eaf7faf03b77b"
-  integrity sha512-6EBi5TA0xyVcqrmfOO+kp0srxAqUft2fHjrLy+UImTVObaFrZFiXq/TLl2XxiKwIy6WqMdJ1zNvxNXOnqXEOvg==
+use-intl@^3.19.0:
+  version "3.19.0"
+  resolved "https://registry.yarnpkg.com/use-intl/-/use-intl-3.19.0.tgz#ea05d41617b1a5fe67066a556d31207cf37f4d6d"
+  integrity sha512-JOA73+YdtArxkvFKrneLAhH55m+x+sA9Wj8w8rYkHkHvcW/76w5T3szSmBG063vH3UqLoIKlsDVBBUfpkB7GMg==
   dependencies:
+    "@formatjs/fast-memoize" "^2.2.0"
     intl-messageformat "^10.5.14"
 
 use-sync-external-store@^1.0.0:
