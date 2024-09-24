@@ -1849,17 +1849,10 @@
     "@formatjs/ecma402-abstract" "2.0.0"
     tslib "^2.4.0"
 
-"@formatjs/intl-localematcher@0.5.4":
+"@formatjs/intl-localematcher@0.5.4", "@formatjs/intl-localematcher@^0.5.4":
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/@formatjs/intl-localematcher/-/intl-localematcher-0.5.4.tgz#caa71f2e40d93e37d58be35cfffe57865f2b366f"
   integrity sha512-zTwEpWOzZ2CiKcB93BLngUX59hQkuZjT2+SAQEscSm52peDW/getsawMcWF1rGRpMCX6D7nSJA3CzJ8gn13N/g==
-  dependencies:
-    tslib "^2.4.0"
-
-"@formatjs/intl-localematcher@^0.2.32":
-  version "0.2.32"
-  resolved "https://registry.yarnpkg.com/@formatjs/intl-localematcher/-/intl-localematcher-0.2.32.tgz#00d4d307cd7d514b298e15a11a369b86c8933ec1"
-  integrity sha512-k/MEBstff4sttohyEpXxCmC3MqbUn9VvHGlZ8fauLzkbwXmVrEeyzS+4uhrvAk9DWU9/7otYWxyDox4nT/KVLQ==
   dependencies:
     tslib "^2.4.0"
 
@@ -7217,14 +7210,14 @@ newrelic@^11.8.0:
     "@newrelic/native-metrics" "^10.0.0"
     "@prisma/prisma-fmt-wasm" "^4.17.0-16.27eb2449f178cd9fe1a4b892d732cc4795f75085"
 
-next-intl@^3.17.1:
-  version "3.17.1"
-  resolved "https://registry.yarnpkg.com/next-intl/-/next-intl-3.17.1.tgz#c36a00586e2353e229b16e9746dd6b97f23179dd"
-  integrity sha512-cRstsLyCZ+yS8sGIwM13xW/EqMulUi0z+J4NcCcwAkmB/OETu6d+xEQfvrQ0ZQ+Fj+qwl9df698Lozyx5kAYhw==
+next-intl@^3.19.4:
+  version "3.19.4"
+  resolved "https://registry.yarnpkg.com/next-intl/-/next-intl-3.19.4.tgz#f16993c9a61f229ddc4eb78f80411a1b06300d0f"
+  integrity sha512-ywJZS+i+CEBYrZq5RXhoBLpjIQBzcVGWclb/CLUO6Lua+ECPM+uJVTb9WascBDT44bSaPcJT11+ZyaEuWEtlOA==
   dependencies:
-    "@formatjs/intl-localematcher" "^0.2.32"
+    "@formatjs/intl-localematcher" "^0.5.4"
     negotiator "^0.6.3"
-    use-intl "^3.17.1"
+    use-intl "^3.19.4"
 
 next-pwa@^5.6.0:
   version "5.6.0"
@@ -9383,10 +9376,10 @@ url@^0.11.0:
     punycode "^1.4.1"
     qs "^6.11.2"
 
-use-intl@^3.17.1:
-  version "3.17.1"
-  resolved "https://registry.yarnpkg.com/use-intl/-/use-intl-3.17.1.tgz#dc7e92947047773ec3db32579d880aadf2e13fcb"
-  integrity sha512-TxpacwmqjhyAfWnNVJKmQNCRC0/apFhetAD/EByrlakoww+jxGkW7Xh0f0iwr+mSD/V1tMakmyaEbozH+yb0qA==
+use-intl@^3.19.4:
+  version "3.19.4"
+  resolved "https://registry.yarnpkg.com/use-intl/-/use-intl-3.19.4.tgz#897b8f4e59be1ea6d7b5bd3f1154cfecf52dc7ef"
+  integrity sha512-mMUlie/zWiKfO8erR+17dCBL8tBsMWCadqfu/3fipzxVJ8XzZV477k6EBllXR/WfbamwwDFmb6RgYKhHDxGzYw==
   dependencies:
     "@formatjs/fast-memoize" "^2.2.0"
     intl-messageformat "^10.5.14"
